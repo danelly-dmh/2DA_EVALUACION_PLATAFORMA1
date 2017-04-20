@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sCu-dn-A5o">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Verde View Controller-->
+        <scene sceneID="e7c-S4-qRk">
+            <objects>
+                <viewController id="vSK-J9-qzd" customClass="VerdeViewController" customModule="EVA2_9_SEGUE" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YOE-Lx-SSD"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ugl-cF-YdI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IrC-eM-A3o">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lD7-ba-DDf">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.34333863101805928" green="0.7503681282722513" blue="0.37808878783231892" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lD7-ba-DDf" firstAttribute="centerY" secondItem="IrC-eM-A3o" secondAttribute="centerY" id="awu-fL-j2a"/>
+                            <constraint firstItem="lD7-ba-DDf" firstAttribute="centerX" secondItem="IrC-eM-A3o" secondAttribute="centerX" id="dSP-vy-qiC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="lD7-ba-DDf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="awu-fL-j2a"/>
+                                <exclude reference="dSP-vy-qiC"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="lD7-ba-DDf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="awu-fL-j2a"/>
+                                <include reference="dSP-vy-qiC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="lVerde" destination="lD7-ba-DDf" id="wQL-q5-IpW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qnI-qJ-uSF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-22.5" y="1623"/>
+        </scene>
+        <!--Rojo View Controller-->
+        <scene sceneID="6ld-LK-Dta">
+            <objects>
+                <viewController id="VI9-BQ-xb8" customClass="RojoViewController" customModule="EVA2_9_SEGUE" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0bv-y4-5mL"/>
+                        <viewControllerLayoutGuide type="bottom" id="U3f-iN-VbT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lOx-7k-Jgf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOa-M8-gKW">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.9910831151832461" green="0.2798479117013068" blue="0.17887118539117794" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="oOa-M8-gKW" firstAttribute="centerX" secondItem="lOx-7k-Jgf" secondAttribute="centerX" id="6VA-dP-PQv"/>
+                            <constraint firstItem="oOa-M8-gKW" firstAttribute="centerY" secondItem="lOx-7k-Jgf" secondAttribute="centerY" id="j7s-zV-5Bf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="oOa-M8-gKW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="6VA-dP-PQv"/>
+                                <exclude reference="j7s-zV-5Bf"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="oOa-M8-gKW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6VA-dP-PQv"/>
+                                <include reference="j7s-zV-5Bf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="lRojo" destination="oOa-M8-gKW" id="Eo5-xO-GuG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zmx-hZ-XmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="718.5" y="1699"/>
+        </scene>
+        <!--Segue-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EVA2_9_SEGUE" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmq-0c-TRL">
+                                <rect key="frame" x="313" y="416" width="31" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Rojo"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="173" y="314" width="31" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="VI9-BQ-xb8" kind="show" identifier="segueRojo" id="1IY-dN-KXY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kb-8g-KYN">
+                                <rect key="frame" x="299" y="258" width="97" height="30"/>
+                                <animations/>
+                                <state key="normal" title="AlertControler"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="159" y="156" width="97" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="lanzarSegue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZCX-aV-IwN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evR-Iq-AxK">
+                                <rect key="frame" x="308" y="332" width="41" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Verde"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="168" y="230" width="41" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="vSK-J9-qzd" kind="show" identifier="segueVerde" id="ytt-YE-yOp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="evR-Iq-AxK" firstAttribute="top" secondItem="9kb-8g-KYN" secondAttribute="bottom" constant="44" id="MDL-Sb-20W"/>
+                            <constraint firstItem="9kb-8g-KYN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T6l-7h-5ZO"/>
+                            <constraint firstItem="9kb-8g-KYN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="136" id="TsO-8r-uaQ"/>
+                            <constraint firstItem="evR-Iq-AxK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VLd-VM-2gG"/>
+                            <constraint firstItem="qmq-0c-TRL" firstAttribute="top" secondItem="evR-Iq-AxK" secondAttribute="bottom" constant="54" id="iDA-4A-7Hj"/>
+                            <constraint firstItem="qmq-0c-TRL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qD3-dg-2kr"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="T6l-7h-5ZO"/>
+                                <exclude reference="TsO-8r-uaQ"/>
+                                <exclude reference="MDL-Sb-20W"/>
+                                <exclude reference="VLd-VM-2gG"/>
+                                <exclude reference="iDA-4A-7Hj"/>
+                                <exclude reference="qD3-dg-2kr"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="T6l-7h-5ZO"/>
+                                <include reference="TsO-8r-uaQ"/>
+                                <include reference="MDL-Sb-20W"/>
+                                <include reference="VLd-VM-2gG"/>
+                                <include reference="iDA-4A-7Hj"/>
+                                <include reference="qD3-dg-2kr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Segue" id="zzB-nX-Ef1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="718.5" y="890"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cI7-gd-Jfx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sCu-dn-A5o" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yML-aQ-u4I">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="8SH-in-ImH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L5d-45-aj8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-22.5" y="890"/>
+        </scene>
+    </scenes>
+</document>

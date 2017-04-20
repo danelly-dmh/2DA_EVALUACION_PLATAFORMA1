@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EVA2_P4_AUTOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ah0-Io-cIL">
+                                <rect key="frame" x="0.0" y="-216" width="320" height="216"/>
+                                <animations/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="PXc-h4-MyF"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="dip-U8-TQH"/>
+                                </connections>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hlu-ho-aN9">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="358" id="NES-b7-7AJ"/>
+                                    <constraint firstAttribute="height" constant="358" id="RZx-nU-axg"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="NES-b7-7AJ"/>
+                                        <exclude reference="RZx-nU-axg"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="NES-b7-7AJ"/>
+                                        <include reference="RZx-nU-axg"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ah0-Io-cIL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="2" id="Bq7-Xv-unR"/>
+                            <constraint firstItem="Hlu-ho-aN9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Cql-0v-DLq"/>
+                            <constraint firstItem="Hlu-ho-aN9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="2" id="HjP-Id-Lz7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hlu-ho-aN9" secondAttribute="bottom" constant="20" id="PzF-r8-Glw"/>
+                            <constraint firstItem="Ah0-Io-cIL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="2" id="Sy3-z9-shG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ah0-Io-cIL" secondAttribute="bottom" constant="350" id="bUi-K0-p6h"/>
+                            <constraint firstItem="Hlu-ho-aN9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="209" id="xrN-e2-kXN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ah0-Io-cIL" secondAttribute="trailing" constant="2" id="ytC-GD-Oiq"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Ah0-Io-cIL"/>
+                                <exclude reference="Hlu-ho-aN9"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Bq7-Xv-unR"/>
+                                <exclude reference="Sy3-z9-shG"/>
+                                <exclude reference="ytC-GD-Oiq"/>
+                                <exclude reference="PzF-r8-Glw"/>
+                                <exclude reference="bUi-K0-p6h"/>
+                                <exclude reference="Cql-0v-DLq"/>
+                                <exclude reference="HjP-Id-Lz7"/>
+                                <exclude reference="xrN-e2-kXN"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Ah0-Io-cIL"/>
+                                <include reference="Hlu-ho-aN9"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Bq7-Xv-unR"/>
+                                <include reference="Sy3-z9-shG"/>
+                                <include reference="ytC-GD-Oiq"/>
+                                <include reference="PzF-r8-Glw"/>
+                                <include reference="bUi-K0-p6h"/>
+                                <include reference="Cql-0v-DLq"/>
+                                <include reference="HjP-Id-Lz7"/>
+                                <include reference="xrN-e2-kXN"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imagenC" destination="Hlu-ho-aN9" id="9bt-ug-lQw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="438"/>
+        </scene>
+    </scenes>
+</document>
